@@ -1,0 +1,308 @@
+body {
+    background-color: #1e1e1e;
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+    color: #d4d4d4;
+    font-size: 12px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0; 
+}
+#nav_bar {
+    z-index: 9;
+    overflow: hidden;
+    background-color: #2c2c2c;
+    width: 100%;
+    height: 4.5%
+}
+#nav_bar a {
+    float: left;
+    color: #a8a8a8;
+    text-align: center;
+    padding: 0.65% 1.5%;
+}
+#nav_bar a#current_page {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+#Shreyas {
+    text-align: center;
+}
+
+#Shreyas h1 {
+    color: #66d93f;
+}
+
+#Shreyas p {
+    color: rgba(215, 186, 125);
+    font-size: 1.5em;
+}
+
+.cpp {
+    color:#519aba;
+}
+.html {
+    color: #e37933;
+}
+.css {
+    color: #519aba;
+}
+.js {
+    color: #cbcb41;
+}
+.pyt {
+    color: rgb(255, 230, 44);
+}
+.bsh {
+    color: #66d93f;
+}
+.java {
+    color: rgb(204, 62, 68);
+}
+
+ol {
+    color: #727272;
+    text-align: right;
+    margin-top: 2.5%;
+    padding: 0;
+    padding-right: 3.6%;
+    font-size: 17px;
+    width: 5.4%;
+    position: absolute;
+    letter-spacing: 2px;
+	display: inline-block;
+}
+
+
+#niche {
+    background-color: #68217a;
+    color: white;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+}
+
+.animation_related {
+    padding: 2px 10px;
+}
+
+.typewriter {
+    margin-top: 2.5%;
+    /* margin-left: 3%; */
+    font-size: 17px;
+	display: inline-block;
+    margin-left: 5%;
+}
+
+.typewriter-text {
+    display: inline-block;
+    overflow-wrap: break-word;
+  	overflow: auto;
+    opacity: 0;
+  	letter-spacing: 2px;
+ 	animation: typing 2s steps(30, end);
+    white-space: nowrap;
+    animation-fill-mode: forwards;
+}
+
+.weird_animation {
+    display: inline;
+    width: 100px;
+    overflow-wrap: break-word;
+  	overflow: auto;
+    opacity: 0;
+  	letter-spacing: 2px;
+ 	animation: typing 2s steps(30, end);
+    animation-fill-mode: forwards;
+}
+#pause {
+    display: inline;
+    color: white;
+}
+#end {
+    display: inline;
+    position: absolute;
+    right: 3%;
+}
+
+
+.pre-processor {
+    color: #c486c0;
+}
+.strings {
+    color: #ce9178;
+}
+.int {
+    color: #569cd6;
+}
+.lang {
+    color: #9cdcfe;
+}
+.sp {
+    color: #4ec9b0;
+}
+.comm {
+    color: #6a9955;
+}
+.free {
+    color: #dcdcaa;
+}
+.num {
+    color: #b5cea8;
+}
+
+.background_change {
+    animation-name: b_change;
+    animation-duration: 1s;
+    animation-delay: 7.5s;
+    animation-fill-mode: forwards;
+}
+.nav_change {
+    animation-name: n_change;
+    animation-duration: 1s;
+    animation-delay: 7.5s;
+    animation-fill-mode: forwards;
+}
+.down_change {
+    animation-name: d_change;
+    animation-duration: 1s;
+    animation-delay: 7.5s;
+    animation-fill-mode: forwards;
+}
+.comment {
+    color: #6a9955;
+    animation-name: c_change;
+    animation-duration: 1s;
+    animation-delay: 12.5s;
+    animation-fill-mode: forwards;
+}
+.selector {
+    color: rgb(215, 186, 125);
+    animation-name: s_change;
+    animation-duration: 1s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+.key {
+    color: rgb(154, 217, 250);
+    animation-name: k_change;
+    animation-duration: 1s;
+    animation-delay: 17.25s;
+    animation-fill-mode: forwards;
+}
+.value {
+    color: rgb(206, 145, 120);
+    animation-name: v_change;
+    animation-duration: 1s;
+    animation-delay: 19.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes b_change {
+    100% {background-color: rgb(39, 40, 34);}
+}
+@keyframes n_change {
+    100% {background-color: rgb(52, 53, 47);}
+}
+@keyframes d_change {
+    100% {background-color: rgb(65, 67, 57);}
+}
+
+@keyframes c_change {
+    100% {color: #87836e; opacity: 1;}
+}
+@keyframes s_change {
+    100% {color: #a6a22e; opacity: 1;}
+}
+@keyframes k_change {
+    100% {color: #66d93f; opacity: 1; font-style: italic;}
+}
+@keyframes v_change {
+    100% {color: #ae81ff; opacity: 1;}
+}
+
+
+@keyframes typing {
+    from { 
+        width: 0%;
+        opacity: 1; 
+    }
+    to { 
+        width: 100%;
+        opacity: 1; 
+    }
+}
+
+
+#content {
+    margin-top: 2.5%;
+    margin-left: 0.7%;
+}
+
+#some_images {
+    text-align: center;
+    cursor: pointer;
+}
+
+#content p, #some_images p{
+    font-size: 15px;
+}
+
+.brack {
+    color: #727272;
+}
+
+#education {
+    margin-top: 50%;
+    text-align: center
+}
+#school {
+    float: left;
+    width: 33%;
+}
+#junior {
+    float: left;
+    width: 33%;
+}
+#grad {
+    float: left;
+    width: 33%;
+}
+
+.trans-img {
+    background-color: white;
+}
+
+.some_skills, .contact_me {
+    margin-top: 2.5%;
+}
+
+.my_image {
+    margin-top: 3%;
+}
+
+
+.some_skills, #this_is_the_table {
+    margin-left: 0.7%;
+    color: rgba(215, 186, 125);
+    font-size: 1.25em;
+}
+#this_is_the_table, .skill_content {
+    margin-left: 0.7%;
+}
+#e_name, #my_skill, #prof, #my_butt {
+    background-color: #2c2c2c;
+}
+.skill_content {
+    font-size: 1.15em;
+}
+.skill_content h2 {
+    color: rgba(215, 186, 125);
+}
+
+.con_con {
+    text-align: center;
+    /* padding: 4%; */
+}
