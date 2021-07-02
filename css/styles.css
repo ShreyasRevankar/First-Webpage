@@ -108,7 +108,7 @@ ol {
 }
 
 .weird_animation {
-    display: inline;
+    display: inline-block;
     width: 100px;
     overflow-wrap: break-word;
   	overflow: auto;
