@@ -35,19 +35,6 @@ $(document).ready(function(){
             $(this).css('background-color', '#2c2c2c');
         }
     });
-
-    // $('.some_kinda').on({
-    //     click: function() {
-    //         if($('.i_need_this').value != "") {
-    //             document.body.style.backgroundColor = red;
-    //             var guy_name = $('.i_need_this').value;
-    //             var skl = $('#my_skill').value;
-    //             var poficiency = $('#my_skill').value;
-    //             var my_skill_tab = document.getElementById('this_is_the_table');
-    //             my_skill_tab.innerHTML += "<tr><td>" + guy_name + "</td><td>" + skl + "</td><td>" + poficiency + "</td></tr>"; 
-    //         }
-    //     }
-    // })
 });
 
 
@@ -62,7 +49,7 @@ function enter_data() {
         data_array[curr_ind] = [guy_name, skl, proficiency];
         // document.write(data_array);
         var my_skill_table = document.getElementsByTagName('table')[0];
-        my_skill_table.innerHTML += "<tr class='text-center'><td>" + data_array[curr_ind][0] + "</td><td>" + data_array[curr_ind][1] + "</td><td>" + data_array[curr_ind][2] + "</td></tr>"; 
+        my_skill_table.innerHTML += "<tr'><td class='text-center'>" + data_array[curr_ind][0] + "</td><td class='text-center'>" + data_array[curr_ind][1] + "</td><td class='text-center'>" + data_array[curr_ind][2] + "</td></tr>"; 
         curr_ind++;
     } else {
         alert("You did not enter your name")

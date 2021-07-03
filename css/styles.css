@@ -90,7 +90,6 @@ ol {
 
 .typewriter {
     margin-top: 2.5%;
-    /* margin-left: 3%; */
     font-size: 17px;
 	display: inline-block;
     margin-left: 5%;
@@ -118,6 +117,10 @@ ol {
     animation-fill-mode: forwards;
 }
 #pause {
+    display: inline;
+    color: white;
+}
+.pause {
     display: inline;
     color: white;
 }
