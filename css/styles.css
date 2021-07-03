@@ -98,7 +98,7 @@ ol {
 .typewriter-text {
     display: inline-block;
     overflow-wrap: break-word;
-  	/* overflow: auto; */
+  	overflow: hidden;
     opacity: 0;
   	letter-spacing: 2px;
  	animation: typing 2s steps(30, end);
